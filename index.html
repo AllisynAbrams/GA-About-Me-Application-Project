@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<link href="/normalize.css" rel="stylesheet" />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Caveat&family=Duru+Sans&family=Nothing+You+Could+Do&family=Palanquin:wght@100&family=Source+Sans+Pro:wght@300&display=swap"
+			rel="stylesheet"
+		/>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>About Allisyn</title>
+
+		<style>
+			body {
+				font-family: 'Duru Sans', sans-serif;
+				background: #f2d9c1;
+				background-image: linear-gradient(90deg, #f2d9c1, #ffffff, #f2d9c1);
+				background-image: -webkit-linear-gradient(
+					90deg,
+					#f2d9c1,
+					#ffffff,
+					#f2d9c1
+				);
+				background-image: -moz-linear-gradient(
+					90deg,
+					#f2d9c1,
+					#ffffff,
+					#f2d9c1
+				);
+				background-position: center;
+				max-width: 800px;
+				margin: 0 auto;
+				color: #000000;
+			}
+
+			header {
+				margin: 0 auto;
+			}
+
+			h1 {
+				font-family: 'Nothing You Could Do', cursive;
+				text-align: center;
+				font-size: 60px;
+				text-shadow: 1px 1px 5px #b7bcbc;
+				padding: 12px 0 0px 0;
+				margin: 0px;
+				background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTQ3Rx2lbE__dtWoRQ6xNfg93IeaA8OxQ5eRw&usqp=CAU');
+				background-size: cover;
+			}
+
+			ul {
+				background: #0c7b93;
+				padding: 6px 0;
+				margin: 0px auto 20px auto;
+			}
+
+			li {
+				display: inline;
+				margin: 0 5px 0 5px;
+				font-size: 12px;
+				font-weight: bolder;
+			}
+			a {
+				color: white;
+				transition: all 200ms ease-in-out;
+			}
+			a:hover {
+				color: #f4c9a1;
+				cursor: pointer;
+			}
+			.link {
+				color: black;
+				text-decoration: underline;
+				transition: all 200ms ease-in-out;
+			}
+
+			.link:hover {
+				color: #754699;
+				cursor: pointer;
+			}
+
+			input[type='submit'] {
+				float: right;
+				margin: 0 5px 0 5px;
+				text-align: center;
+				padding: 1px;
+				background: #764699;
+				color: white;
+				font-size: 12px;
+				border-radius: 4px;
+				border: 2px solid #6c567b;
+			}
+			input[type='email'] {
+				float: right;
+				margin: 0px auto 20px;
+			}
+			.profimage {
+				display: inline;
+				float: left;
+				padding-right: 10px;
+				border-radius: 20px;
+				margin: 0 auto 10px 0px;
+			}
+			.mainheadingtextblock {
+				font-size: 14px;
+				font-weight: 200;
+				margin: 30px 15px 0px 15px;
+				text-align: justify;
+			}
+
+			h2 {
+				margin-bottom: -7px;
+				text-shadow: 1px 1px 2px #b7bcbc;
+			}
+
+			article {
+				font-size: 16px;
+				margin: 30px 15px 0px 15px;
+				text-align: justify;
+			}
+
+			.portfolio {
+				font-size: 16px;
+				margin: 30px 15px 40px 15px;
+			}
+
+			.portfolioimg {
+				display: block;
+				position: center;
+				margin: 0 auto;
+				padding: 0;
+				max-width: 418px;
+				box-shadow: 8px 8px 20px rgba(0, 0, 0, 0.4);
+			}
+
+			button {
+				display: block;
+				margin: 2px auto 25px auto;
+				padding: 3px 8px;
+				background: #764699;
+				color: white;
+				border: none;
+				border-radius: 4px;
+				box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.4);
+				transition: all 200ms ease-in-out;
+			}
+
+			button:hover {
+				background: rgba(118, 70, 153, 0.7);
+				cursor: pointer;
+			}
+
+			footer {
+				margin: 40px auto 10px 0;
+				text-align: center;
+				font-size: 12px;
+			}
+
+			@media (max-width: 600px) {
+				h1 {
+					font-size: 35px;
+					line-height: 70px;
+				}
+				ul {
+					padding: 3px 0px 3px 0px;
+					margin-bottom: 10px;
+					float: none;
+					position: center;
+				}
+				li {
+					display: block;
+					margin: 7px 0 7px 0;
+					font-size: 12px;
+					text-align: center;
+					float: none;
+				}
+
+				input[type='email'] {
+					float: none;
+				}
+				input[type='submit'] {
+					float: none;
+					margin: 0;
+				}
+				.mainheadingtextblock {
+					font-size: 12px;
+					margin-top: 10px;
+					display: block;
+					margin: 30px 0px 0px 15px;
+					text-align: justify;
+				}
+
+				.profimage {
+					display: block;
+					position: center;
+					margin: 0 auto;
+					float: none;
+					padding: 0px;
+				}
+
+				.portfolioimg {
+					display: block;
+					align-items: center;
+				}
+			}
+		</style>
+	</head>
+
+	<body>
+		<header>
+			<h1>All About Allisyn</h1>
+			<ul>
+				<li>
+					<a
+						href="https://www.shecodes.io/workshops/shecodes-online-workshop-19-0/projects/42640"
+						target="blank"
+						>SheCodes Project</a
+					>
+				</li>
+				<li>
+					<a href="https://www.pinterest.com/allisyna/boards/" target="blank"
+						>My Favorites</a
+					>
+				</li>
+				<li><a href="#">About Me</a></li>
+
+				<li><input type="submit" /></li>
+				<li>
+					<input type="email" placeholder="Newsletter Signup!" />
+				</li>
+			</ul>
+		</header>
+		<div class="mainheadingtextblock">
+			<span class="profimage"
+				><img src="https://i.imgur.com/iP5TKiY.jpg"
+			/></span>
+			<h3>
+				Hi there! My name is Allisyn. I’m 30 years young, based betwen NYC and
+				NJ, and currently in the midst of a career change from retail
+				buying/planning to software development. I'm an upcoming student of the
+				Software Engineering Immersive bootcamp program at
+				<a href="https://generalassemb.ly/" target="blank"
+					><span class="link">General Assembly</span></a
+				>
+				and couldn't be more excited to start this new journey! Continue reading
+				to get to know more about me, my professional background, and my future
+				goals.
+			</h3>
+			<h3>
+				*If you’d like to <em>join me on my career change journey</em> and learn
+				about the life of a career-changing coding bootcamp student, subscribe
+				to my weekly newsletter at the top of this page by submitting your email
+				in the "Newsletter Signup" box!
+			</h3>
+			<h3>
+				If you have any questions or would like to collaborate, say hello by
+				emailing me
+				<a href="mailto:allisyn.abrams@gmail.com"
+					><span class="link">here</span></a
+				>
+				(allisyn.abrams@gmail.com).
+			</h3>
+		</div>
+		<hr />
+		<article>
+			<h2>About Me</h2>
+			<div class="get-to-know-me">
+				<p>
+					<b>Get to know me...</b> <br />
+					<small
+						>I'm originally from New Jersey, about 20 minutes from the beach and
+						an hour from NYC. I spent summers going down the shore with my
+						family and I’m definitely a beach girl at heart. I can still be
+						found lounging in the sand or swimming in the ocean pretty much any
+						time I can get there! I grew practicing gymnastics, dance, and
+						cheerleading. To this day I still love flipping around, (yes, 30
+						year olds can still do back flips)! Over the past four years most of
+						my exercise has been focused on Pilates, yoga, and barre. A life
+						goal of mine is to one day become a certified Pilates or yoga
+						instructor – I love the idea of sharing both the mental and physical
+						benefits of my practice with others. I also love cooking, finding
+						ways to make delicious dishes with the fewest and most natural
+						ingredients, attending live music shows, spending time with my
+						family (AKA some of my best friends), and traveling.</small
+					>
+				</p>
+			</div>
+
+			<div class="professional-life">
+				<p>
+					<b>Professional life...</b><br />
+					<small
+						>So, what about my professional life, you ask? Well, neither
+						professional sun-bather nor avid concert-goer was going to pay the
+						bills, so I explored another life-long passion of mine…<br /><br />I
+						was interested in fashion from a very young age. When I was a child,
+						I would get home from back-to-school shopping trips and put on
+						fashion shows with my sister, the foyer hallway staged as our runway
+						(of course). I quickly realized modeling was not in the cards for me
+						when I stopped growing at 5’2”, so I decided I’d need to choose a
+						different career if I wanted to be in the fashion industry.
+						<br /><br />I attended Marist College where I studied Fashion
+						Merchandising and Business. A few weeks after graduation I started
+						my first “real-world” job on the merchandise buying team at
+						Bloomingdale’s. I spent 8 wonderful years in the retail industry,
+						over the course of which I fell in love with testing out new
+						products by bringing them into a store/website, understanding the
+						customers’ reaction through analysis of metrics and KPIs, constantly
+						learning what worked and what didn’t and coming up with strategic
+						solutions on how to solve and fix issues, and adapting and pivoting
+						to meet consumer demand or new trends in strategic and innovative
+						ways –not to mentioned all while working with lots of different
+						people to do so. During my time in retail I learned so much about
+						the industry, business, customer service, problem-solving, working
+						collaboratively across different cross-functional teams, and
+						developed an amazing transferrable skill set of both soft and hard
+						skills. I was also always exposed to aspects of technology as it
+						became more and more prevalent in everyday life and more important
+						and innovative in retail.</small
+					>
+				</p>
+			</div>
+
+			<div class="the-future">
+				<p>
+					<b>The future is bright...</b> <br />
+					<small
+						>Unfortunately, along with millions of other people across world, I
+						recently lost my job during the Covid-19 pandemic. Right from the
+						get-go I chose to see this not-so-awesome life event as an amazing
+						career change opportunity rather than a failure – I knew this was
+						the start of a great new chapter for me! I’ve always been extremely
+						interested in the way intricate websites, apps, software programs,
+						and in-store/in-warehouse technologies are designed, built, tested,
+						and constantly updated to meet ever-changing business needs and
+						create a better user/customer experience. I’ve also always had an
+						affinity for e-commerce (where I began my career.) That said, put
+						everything together and my most recent decision to enroll in a
+						software development bootcamp as the first step in my career change
+						was a fairly easy one for me. The idea of learning new skills,
+						building something with my own hands (and a keyboard!) and seeing it
+						come to life, all while solving problems and working with many
+						others along the way, is extremely exciting to me.</small
+					>
+				</p>
+			</div>
+
+			<p>
+				<small>
+					I can’t wait to embark on my journey to a new career path. I’ve
+					already started learning a bit of code and I’m loving it -
+					<b>check out my first few projects below in the portfolio section!</b>
+					<br /><br />Remember: If you’d like to join me on this journey and
+					learn about the life of a career-changing coding bootcamp student,
+					subscribe to my weekly newsletter at the top of this page by
+					submitting your email in the "Newsletter Signup" box!</small
+				>
+			</p>
+		</article>
+		<br />
+		<div class="portfolio">
+			<h2>Portfolio</h2>
+			<p>
+				Check out some of the cool projects I've worked on so far! <br /><small
+					>Click the "like" button to let me know your favorites.</small
+				>
+			</p>
+		</div>
+
+		<div class="portfolioimg">
+			<a
+				href="https://www.shecodes.io/workshops/shecodes-online-workshop-19-0/projects/42640"
+				target="blank"
+				><img src="https://i.imgur.com/MRS3x85.jpg"
+			/></a>
+		</div>
+		<button>Like!</button>
+		<div class="portfolioimg">
+			<a
+				href="http://dash.ga.co/allisynabrams/build-your-own-blog-theme"
+				target="blank"
+				><img src="https://i.imgur.com/CyOPxwv.jpg"
+			/></a>
+		</div>
+		<button>Like!</button>
+		<div class="portfolioimg">
+			<a
+				href="http://dash.ga.co/allisynabrams/build-your-own-business-website"
+				target="blank"
+				><img src="https://i.imgur.com/URruQHU.jpg"
+			/></a>
+		</div>
+		<button>Like!</button>
+		<footer>
+			Website Created by Allisyn<br />Get in touch:
+			<a href="mailto:allisyn.abrams@gmail.com"
+				><span class="link">allisyn.abrams@gmail.com</span></a
+			>
+		</footer>
+		<script>
+			function likePost() {
+				prompt(
+					"Thanks for the like! If you'd like to stay updated on my future work via my weekly newsletter feel free to submit your email below."
+				);
+				alert(
+					'Awesome! Keep an eye out for my newsletter every Thursday morning :)'
+				);
+			}
+			var likePostButton = document.querySelector('button');
+			likePostButton.addEventListener('click', likePost);
+		</script>
+	</body>
+</html>
